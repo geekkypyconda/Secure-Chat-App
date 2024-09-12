@@ -5,7 +5,7 @@ The chat application supports both client and server modes.
 
 To compile the code, c++ compiler like g++ is needed.
 
-## Part 2
+## Secure Chat App
 
 ### Compilation
 
@@ -28,7 +28,7 @@ To compile the code, c++ compiler like g++ is needed.
     Certificates and keys are used to authenticate and encrypt the message received.
 
 
-## Part 3
+## SSL Downgrade Attack
 
 ### Compilation 
     Command to compile the code: 'g++ NOT_secure_chat_app.cpp -lssl -lcrypto -o NOT_secure_chat_app'
@@ -60,7 +60,7 @@ To compile the code, c++ compiler like g++ is needed.
     Cipher suites with Perfect Forward Secrecy (PFS) are preferred to increase security.
     Certificates and keys are used to authenticate and encrypt the message received.
 
-## Part 4
+## MITM Attack
 
 Compilation : Command to compile the code: 'g++ secure_chat_app.cpp -lssl -lcrypto -o secure_chat_app'
 
